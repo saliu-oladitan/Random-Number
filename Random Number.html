@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h2>Show Random Number between 1 and 100. <br>BY: OLADITAN SALIU</h2>
+
+  <button id="demo" style="background-color: aqua; width:100px; height: 100px;"></button><br><br><br>
+  <button id="show" onclick="load()">SHOW</button>
+  <script>
+
+    function load() {
+      var randnum = Math.floor((Math.random() * 100) + 1);
+      document.getElementById("demo").innerHTML = randnum;
+    };
+  </script>
+
+
+  <!--var cars = new Array("Saab", "Volvo", "BMW");
+document.getElementById("demo").innerHTML = cars[2];
+<br><br><br>
+  <script>
+  var cars = new Array("Saab", "Volvo", "BMW");
+  document.write (cars[2]);
+</script>
+-->
+</body>
+
+</html>
