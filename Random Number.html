@@ -3,14 +3,14 @@
 
 <body>
 
-  <h2>Show Random Number between 1 and 100 (You can adjust the range to suite your need). <br>BY: OLADITAN SALIU</h2>
+  <h2>Show Random Number between 1 and 1000 (You can adjust the range to suite your need). <br>BY: OLADITAN SALIU</h2>
 
   <button id="demo" style="background-color: aqua; width:100px; height: 100px;"></button><br><br><br>
   <button id="show" onclick="load()">SHOW</button>
   <script>
 
     function load() {
-      var randnum = Math.floor((Math.random() * 100) + 1);
+      var randnum = Math.floor((Math.random() * 1000) + 1);
       document.getElementById("demo").innerHTML = randnum;
     };
   </script>
